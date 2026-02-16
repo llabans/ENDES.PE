@@ -19,8 +19,13 @@ archivos_enaho <- function(periodo, codigo_modulo) {
   temp <- tempfile() ; tempdir <- tempdir()
   
   # Genera una matriz con el número identificador de versiones por cada año
-  versiones <- matrix(c(2019, 687, 
-                        2018, 634, 
+  versiones <- matrix(c(2024,966,# periodo anual
+                        2023,906,
+                        2022,784,
+                        2021,759,
+                        2020,737,
+                        2019,687, 
+                        2018,634, 
                         2017,603,
                         2016,546,
                         2015,498,
@@ -29,7 +34,7 @@ archivos_enaho <- function(periodo, codigo_modulo) {
                         2012,324,
                         2011,291,
                         2010,279,
-                        2009,258,
+                        2009,285,
                         2008,284,
                         2007,283,
                         2006,282,
